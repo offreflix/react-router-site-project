@@ -1,5 +1,5 @@
-import logo from '../assets/image.svg';
 import './style/Newsletter.css';
+import logo from '/assets/image.svg';
 
 function Newsletter(props) {
   return (

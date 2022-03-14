@@ -43,12 +43,7 @@ function Header() {
         </li>
         <li>
           <NavLink to="/signup">
-            <span
-              className={({ isActive }) => (isActive ? 'selected' : '')}
-              className="signup"
-            >
-              Já tem uma conta?
-            </span>
+            <span className="signup">Já tem uma conta?</span>
           </NavLink>
         </li>
       </ul>
