@@ -1,0 +1,80 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 20px;
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+.newsletterContainer {
+  width: 35rem;
+}
+
+.newsletterContainer h1 {
+  font-size: 4rem;
+  margin: 0 0 0.75rem 0;
+  padding: 0 0 0 0;
+}
+
+.newsletterContainer p {
+  font-size: 1rem;
+  margin: 0 0 0.75rem 0;
+  padding: 0 0 0 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input input,
+button {
+  height: 2.5rem;
+  border: none;
+  border-radius: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.input input {
+  width: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  background-color: var(--white);
+  color: black;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input button {
+  width: 7.5rem;
+  background-color: var(--medium-medium);
+  color: var(--white);
+  font-weight: bold;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.input button:hover {
+  background-color: var(--white);
+  color: var(--medium-medium);
+  transform: scale(1.1);
+}
+
+img {
+  width: 34.375rem;
+  margin-top: 3rem;
+  transition: all 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+span {
+  color: var(--medium-medium);
+  font-size: 4rem;
+}
