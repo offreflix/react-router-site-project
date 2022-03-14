@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './style/Header.css';
 
 function Header() {
@@ -9,19 +10,46 @@ function Header() {
 
       <ul className="nav">
         <li>
-          <a href="#">Início</a>
+          <NavLink
+            className={({ isActive }) => (isActive ? 'selected' : '')}
+            to="/"
+          >
+            Início
+          </NavLink>
         </li>
         <li>
-          <a href="#">Serviços</a>
+          <NavLink
+            className={({ isActive }) => (isActive ? 'selected' : '')}
+            to="/services"
+          >
+            Serviços
+          </NavLink>
         </li>
         <li>
-          <a href="#">Sobre</a>
+          <NavLink
+            className={({ isActive }) => (isActive ? 'selected' : '')}
+            to="/about"
+          >
+            Sobre
+          </NavLink>
         </li>
         <li>
-          <a href="#">Contato</a>
+          <NavLink
+            className={({ isActive }) => (isActive ? 'selected' : '')}
+            to="/contact"
+          >
+            Contato
+          </NavLink>
         </li>
         <li>
-          <a href="#">Já tem uma conta?</a>
+          <NavLink to="/signup">
+            <span
+              className={({ isActive }) => (isActive ? 'selected' : '')}
+              className="signup"
+            >
+              Já tem uma conta?
+            </span>
+          </NavLink>
         </li>
       </ul>
     </header>

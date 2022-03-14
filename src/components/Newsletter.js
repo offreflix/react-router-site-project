@@ -3,7 +3,7 @@ import './style/Newsletter.css';
 
 function Newsletter(props) {
   return (
-    <main className="main">
+    <main className="home">
       <div>
         <div className="newsletterContainer">
           <h1>
