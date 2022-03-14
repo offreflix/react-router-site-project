@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark);
+  font-weight: bold;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+.header p {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.header p:hover {
+  color: var(--medium-medium);
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.1875rem;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: var(--medium-medium);
+  transform: scale(1.1);
+}
+
+.nav li:last-child {
+  border: 0.25rem solid var(--medium-medium);
+  border-radius: 1.25rem;
+  padding: 0.5625rem;
+}
+
+.nav li:last-child:hover {
+  background-color: var(--medium-medium);
+  color: var(--dark);
+}
+
+span {
+  color: var(--medium-medium);
+}
