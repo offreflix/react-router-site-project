@@ -1,0 +1,52 @@
+.contact {
+  margin: 0 2.25rem 0 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.contact .input input,
+textarea {
+  width: 30rem;
+}
+
+.contact .input textarea {
+  resize: none;
+  height: 20rem;
+}
+.contact .input textarea {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  background-color: var(--white);
+  color: black;
+  border: none;
+  border-radius: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-family: arial, sans-serif;
+}
+
+.contact .input textarea:focus {
+  outline: none;
+}
+
+.contactInfoContainer {
+  font-size: 1.6rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfoContainer span {
+  font-weight: bold;
+  color: var(--medium-medium);
+}
+
+.contactInfo p {
+  text-align: center;
+}
