@@ -11,6 +11,7 @@ import Home from './components/Newsletter';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
