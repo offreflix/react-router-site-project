@@ -1,6 +1,6 @@
 .services {
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
   justify-content: center;
   align-content: center;
   justify-items: center;
