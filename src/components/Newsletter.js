@@ -1,5 +1,5 @@
+/* CSS Import */
 import './style/Newsletter.css';
-import logo from '/assets/image.svg';
 
 function Newsletter(props) {
   return (
@@ -24,7 +24,10 @@ function Newsletter(props) {
       </div>
 
       <div>
-        <img src={logo} alt="girl"></img>
+        <img
+          src="https://cdn.discordapp.com/attachments/751620046026965022/953278775842463744/image.png"
+          alt="girl"
+        ></img>
       </div>
     </main>
   );

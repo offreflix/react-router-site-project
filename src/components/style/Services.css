@@ -1,0 +1,19 @@
+.services {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  gap: 2rem;
+  margin: 1.5rem 2.5rem 0 2.5rem;
+}
+.services p {
+  margin: 0 0 0 0;
+  font-size: 1rem;
+}
+.services .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

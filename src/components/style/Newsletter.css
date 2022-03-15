@@ -64,17 +64,17 @@ button {
   transform: scale(1.1);
 }
 
-img {
+.home img {
   width: 34.375rem;
   margin-top: 3rem;
   transition: all 0.5s;
 }
 
-img:hover {
+.home img:hover {
   transform: scale(1.1);
 }
 
-span {
+.home span {
   color: var(--medium-medium);
   font-size: 4rem;
 }

@@ -1,0 +1,20 @@
+.about {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about h1 {
+  font-size: 3rem;
+}
+.about p {
+  font-size: 1.2rem;
+}
+
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

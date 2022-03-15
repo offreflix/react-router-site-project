@@ -7,7 +7,7 @@
   --white: #fff;
   color: var(--white);
   background-color: var(--dark);
-  font-size: 1.171303074670571vw;
+  /* font-size: 1.171303074670571vw; */
 }
 
 /* Removing text decoration from links */

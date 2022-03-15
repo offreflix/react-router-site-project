@@ -1,7 +1,11 @@
+/* CSS Import */
 import './App.css';
+
+/* React Import */
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+/* Components Import*/
 import Header from './components/Header';
 import Home from './components/Newsletter';
 import Services from './components/Services';
