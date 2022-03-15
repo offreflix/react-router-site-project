@@ -1,0 +1,18 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.notFound a {
+  color: var(--medium-medium);
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.notFound a:hover {
+  color: var(--medium-medium);
+  transform: scale(1.2);
+}
