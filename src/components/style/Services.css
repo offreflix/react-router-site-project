@@ -7,6 +7,11 @@
   gap: 2rem;
   margin: 1.5rem 2.5rem 0 2.5rem;
 }
+
+.services h3 {
+  color: var(--medium-medium);
+}
+
 .services p {
   margin: 0 0 0 0;
   font-size: 1rem;

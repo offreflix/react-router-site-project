@@ -13,18 +13,22 @@ function Contact() {
         <button onClick={() => {}}>Enviar</button>
       </div>
       <div className="contactInfoContainer">
-        <div className="contactInfo">
-          <FiMail size={size} />
-          <p>
-            <span>Email</span>: empresa@gmail.com
-          </p>
-        </div>
-        <div className="contactInfo">
-          <FiPhoneCall size={size} />
-          <p>
-            <span>Telefone</span>: 0800 999 9999
-          </p>
-        </div>
+        <a href="mailto:empresa@gmail.com">
+          <div className="contactInfo">
+            <FiMail size={size} />
+            <p>
+              <span>Email</span>: empresa@gmail.com
+            </p>
+          </div>
+        </a>
+        <a href="tel:0800 999 9999">
+          <div className="contactInfo">
+            <FiPhoneCall size={size} />
+            <p>
+              <span>Telefone</span>: 0800 999 9999
+            </p>
+          </div>
+        </a>
         <div className="contactInfo">
           <FiHome size={size} />
           <p>
