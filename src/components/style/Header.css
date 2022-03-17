@@ -12,13 +12,21 @@
   font-size: 1.5rem;
   transition: all 0.5s;
 }
+<<<<<<< Updated upstream
 .header a {
   transition: all 0.3s;
 }
+=======
+>>>>>>> Stashed changes
 
 .header p:hover {
   color: var(--medium-medium);
   transform: scale(1.1);
+}
+
+.header a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .nav {
