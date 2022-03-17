@@ -4,15 +4,16 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    a {
-    color: var(--medium-medium);
-    font-weight: bold;
-    transition: all 0.5s;
-}
 
-a:hover {
-    color: var(--medium-medium);
-    transform: scale(1.2);
-}    
-  }
-  
+    a {
+        color: var(--medium-medium);
+        font-weight: bold;
+        transition: all 0.5s;
+
+        &:hover {
+            color: var(--medium-medium);
+            transform: scale(1.2);
+        }
+    }
+
+}

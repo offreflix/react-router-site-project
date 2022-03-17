@@ -43,11 +43,12 @@
         font-size: 1.2rem;
         background-color: var(--white);
         color: black;
+
+        &:focus {
+            outline: none;
+        }
     }
 
-    input:focus {
-        outline: none;
-    }
 
     button {
         width: 7.5rem;
@@ -56,13 +57,14 @@
         font-weight: bold;
         transition: all 0.5s;
         cursor: pointer;
+
+        &:hover {
+            background-color: var(--white);
+            color: var(--medium-medium);
+            transform: scale(1.1);
+        }
     }
 
-    button:hover {
-        background-color: var(--white);
-        color: var(--medium-medium);
-        transform: scale(1.1);
-    }
 }
 
 
@@ -71,11 +73,12 @@
         width: 34.375rem;
         margin-top: 3rem;
         transition: all 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
-    img:hover {
-        transform: scale(1.1);
-    }
 
     span {
         color: var(--medium-medium);
