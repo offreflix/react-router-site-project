@@ -1,13 +1,19 @@
 .contact {
   margin: 0 2.25rem 0 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 3rem;
 }
 
 .contact .input input,
-textarea {
+.contact textarea {
   width: 30rem;
 }
 
@@ -15,6 +21,7 @@ textarea {
   resize: none;
   height: 20rem;
 }
+
 .contact .input textarea {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -36,17 +43,25 @@ textarea {
   font-size: 1.6rem;
 }
 
-.contactInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .contactInfoContainer span {
   font-weight: bold;
   color: var(--medium-medium);
 }
 
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .contactInfo p {
   text-align: center;
 }
+/*# sourceMappingURL=Contact.css.map */

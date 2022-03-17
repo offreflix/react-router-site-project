@@ -1,18 +1,30 @@
 .notFound {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 2rem;
 }
 
 .notFound a {
   color: var(--medium-medium);
   font-weight: bold;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .notFound a:hover {
   color: var(--medium-medium);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
+/*# sourceMappingURL=NotFound.css.map */
