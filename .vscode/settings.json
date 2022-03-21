@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "Codesandbox"
-    ]
+    ],
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }

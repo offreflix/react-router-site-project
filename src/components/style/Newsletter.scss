@@ -5,6 +5,24 @@
     align-content: center;
     margin-top: 20px;
     padding: 0 2.5rem 0 2.5rem;
+
+    img {
+        width: 34rem;
+        margin-top: 3rem;
+        transition: all 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+
+    }
+
+
+    span {
+        color: var(--medium-medium);
+        font-size: 4rem;
+    }
 }
 
 .newsletterContainer {
@@ -67,21 +85,17 @@
 
 }
 
-
-.home {
-    img {
-        width: 34.375rem;
-        margin-top: 3rem;
-        transition: all 0.5s;
-
-        &:hover {
-            transform: scale(1.1);
-        }
+@media (max-width:768px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
-
-    span {
-        color: var(--medium-medium);
-        font-size: 4rem;
+    .input {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 }

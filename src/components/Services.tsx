@@ -1,4 +1,6 @@
 /* Icons Import */
+import * as React from 'react';
+
 import {
   FiCodesandbox,
   FiMusic,

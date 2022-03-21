@@ -1,6 +1,7 @@
-import './style/Contact.css';
+import * as React from 'react';
 
 import { FiPhoneCall, FiMail, FiHome } from 'react-icons/fi';
+import './style/Contact.css';
 
 function Contact() {
   const size = '4rem';

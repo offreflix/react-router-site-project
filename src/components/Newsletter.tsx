@@ -1,3 +1,4 @@
+import * as React from 'react';
 /* CSS Import */
 import './style/Newsletter.css';
 

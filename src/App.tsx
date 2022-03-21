@@ -1,9 +1,9 @@
+/* React Import */
+import * as React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 /* CSS Import */
 import './App.css';
-
-/* React Import */
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 /* Components Import*/
 import Header from './components/Header';
