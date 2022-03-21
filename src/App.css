@@ -42,3 +42,10 @@ a:visited {
   border-radius: 0.5rem;
   border: 0.2rem solid var(--dark);
 }
+
+@media (max-width:768px) {
+  * {
+      font-size: 2.5vw;
+  }
+} 
+
