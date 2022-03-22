@@ -3,13 +3,17 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     padding: 0 2.5rem 0 2.5rem;
 
     img {
         width: 34rem;
         margin-top: 3rem;
         transition: all 0.5s;
+
+        @media (max-width:1180px) and (min-width:768px) {
+            width: 23rem;
+        }
 
         &:hover {
             transform: scale(1.1);
@@ -19,10 +23,7 @@
     }
 
 
-    span {
-        color: var(--medium-medium);
-        font-size: 4rem;
-    }
+
 }
 
 .newsletterContainer {
@@ -32,12 +33,37 @@
         font-size: 4rem;
         margin: 0 0 0.75rem 0;
         padding: 0 0 0 0;
+
+        span {
+            color: var(--medium-medium);
+            font-size: 4rem;
+
+
+        }
+
+
     }
 
     p {
         font-size: 1rem;
         margin: 0 0 0.75rem 0;
         padding: 0 0 0 0;
+    }
+
+    @media (max-width:1180px) and (min-width:768px) {
+        width: 25rem;
+
+        h1 {
+            font-size: 2.6rem;
+
+            span {
+                font-size: 2.6rem
+            }
+        }
+
+        p {
+            font-size: 1rem
+        }
     }
 }
 

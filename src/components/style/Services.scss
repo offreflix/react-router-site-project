@@ -1,11 +1,15 @@
 .services {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     justify-content: center;
     align-content: center;
     justify-items: center;
-    gap: 2rem;
-    margin: 1.5rem 2.5rem 0 2.5rem;
+    gap: 5rem;
+    margin: 1.5rem 5rem 0 5rem;
+
+    @media (max-width: 768px) {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
 
     h3 {
         color: var(--medium-medium);
