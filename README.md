@@ -16,7 +16,7 @@ Sobre a responsividade, quando a tela é diminuida fiz uma nav pra mobile e tabl
    </div>
   <hr/>
   
-Caso queira [testar](https://landing-page-react-tt.netlify.app). 🔧<br>
+Caso queira [testar](jvreact-router-site.netlify.app). 🔧<br>
 Made by João Victor. 😳 [My LinkedIn](https://www.linkedin.com/in/joão-victor-sabino)
   
 </div>
