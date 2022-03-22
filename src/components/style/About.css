@@ -16,6 +16,12 @@
           justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .about {
+    width: 80%;
+  }
+}
+
 .about h1 {
   font-size: 3rem;
 }

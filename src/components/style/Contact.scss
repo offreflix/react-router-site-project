@@ -5,6 +5,10 @@
     align-items: center;
     gap: 3rem;
 
+    @media (max-width:768px) {
+        flex-direction: column;
+    }
+
     .input input,
     textarea {
         width: 30rem;
@@ -37,6 +41,11 @@
 .contactInfoContainer {
     font-size: 1.6rem;
 
+    @media (max-width:768px) {
+        display: flex;
+        gap: 2.5rem;
+    }
+
     span {
         font-weight: bold;
         color: var(--medium-medium);
@@ -51,4 +60,6 @@
     p {
         text-align: center;
     }
+
+
 }
